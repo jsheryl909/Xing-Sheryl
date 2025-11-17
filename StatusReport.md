@@ -1,3 +1,5 @@
+CONTRIBUTIONS AND PDATE ON EACH TASK :
+
 Week 1 & 2 - Collaboration both Sheryl and Xing
 
 Xing and I collaborated during Weeks 1 and 2 to collect the datasets, review the terms of use, and set up a clean structure for our project. We have downloaded the MovieLens data and the accompanying movie metadata files, validated that both are publicly available and ethically appropriate for academic use, and then discussed how best to organize our workspace so that the project remains easy to navigate as it grows. After talking through a few options, we decided the simplest and most organized approach was to place all CSV files inside a dedicated IS 477 Project folder within our main XING-SHERYL directory. This setup keeps our data isolated in one place, prevents confusion about file paths, and ensures that both of us can easily reference the same folder structure when working on different parts of the project. We finished these foundational setup steps together so we could begin Week 3 without any hiccups to start the cleaning and analysis work.
@@ -22,4 +24,48 @@ The first part of our analysis covered the overall distribution of user ratings 
 
 All visualizations were created within the Week 5 notebook, and summary tables of means by genre and year were written out as CSVs for quick reference later in the project. By the end of Week 5, we had developed a solid comprehension of the patterns of ratings along a number of key dimensions, which would form the basis for higher-order insights in the coming weeks.
 
+----------------------------------------------------------------------------------------------------
 
+UPDATED TIMELINE : 
+
+Although we completed the work for Weeks 1–5, we did fall slightly behind our original timeline and ended up finishing some pieces later than planned. Because of this, we have decided to combine the tasks for Weeks 6 and 7 so that the recommendation system and the automated workflow can be developed together. This adjustment will help us stay on track and ensure the full project is completed on time, with Week 8 still reserved for final documentation and polishing our results.
+
+---------------------------------------------------------------------------------------------------
+
+CHANGES TO PROJECT PLAN 
+
+The overall structure of the project remains the same as described in our original plan; however, several improvements were made based on Milestone 2 feedback. First, we updated the plan to include direct URLs to both datasets, ensuring transparency and traceability. We also added the explicit licenses for the MovieLens dataset (CC BY 4.0) and the TMDB-based metadata (TMDB API Terms of Service). These details strengthen the ethical and reproducibility sections of the project plan.
+
+A second change was the creation of a standardized file structure early in the project. After reviewing the plan in Week 2, my partner and I agreed that the cleanest and most reproducible approach would be to place all raw and cleaned data inside the IS 477 Project folder. This ensures that all notebook paths remain consistent and reduces the risk of broken links. Additionally, because the original credits.csv exceeded GitHub’s file size limit, we removed it from the repository history and adjusted our workflow so that only necessary datasets are version-controlled.
+
+Finally, although we completed the tasks for Weeks 1–5, we fell a bit behind our original pacing and will be adjusting the plan slightly. Instead of handling Weeks 6 and 7 separately, we are now combining the recommendation system work and the automated workflow development into a single joint effort to ensure we stay on track for the final submission. Week 8 will still be dedicated to final documentation and polishing the report, and we expect to complete the project on time with this revised schedule.
+
+Movie Lens Rating Dataset 
+
+Direct Download:
+https://files.grouplens.org/datasets/movielens/ml-latest-small.zip
+
+Dataset homepage:
+https://grouplens.org/datasets/movielens/
+
+License:
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Movie Metadata Set 
+
+Dataset page:
+https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
+
+Direct download link cannot be provided without a Kaggle token,
+but this is the official dataset page
+
+Source database:
+The Movie Database (TMDB)
+https://www.themoviedb.org/
+
+License / Terms of Use:
+TMDB API Terms of Service (covers metadata usage)
+https://www.themoviedb.org/documentation/api/terms-of-use
+
+--------------------------------------------------------------------------------------------------
