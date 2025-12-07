@@ -77,7 +77,7 @@ Finally, after completing our exploratory analysis, we used the cleaned and merg
 Overall, the findings show that combining behavioral rating data with descriptive metadata reveals clear trends in audience preferences. Our integrated analysis demonstrates that genre and release year are strong determinants of ratings, whereas runtime plays a minor role. The results highlight how even a straightforward integration pipeline can produce interpretable insights and functional recommendation outputs.
 
 -------------------------------------------------------------------------------------------------------------------------------------
-Reproducing 
+Future Work 
 
 While our project successfully integrated the MovieLens ratings data with TMDB metadata and produced meaningful insights and simple recommendation tools, there are several directions in which this work could be expanded or strengthened. Completing this project also taught us important lessons about data cleaning, dataset integration, reproducibility, and the challenges of working with large heterogeneous data sources. This section reflects on those lessons and outlines realistic avenues for future improvements.
 
