@@ -1,0 +1,65 @@
+# Project-level metadata for IS 477 Final Project
+
+identifier:
+  identifier: "https://github.com/jsheryl909/Xing-Sheryl"
+  identifierType: "URL"
+
+creators:
+  - name: "Sheryl John"
+  - name: "Xing Huang"
+
+titles:
+  - title: "Exploring Movie Ratings and Attributes Using MovieLens and Movie Metadata"
+
+publisher: "University of Illinois Urbana-Champaign"
+publicationYear: 2025
+
+resourceType:
+  resourceTypeGeneral: "Dataset"
+  resourceType: "Reproducible analysis package (code + data + notebooks)"
+
+descriptions:
+  - descriptionType: "Abstract"
+    lang: "en"
+    description: >
+      This project combines the MovieLens ratings dataset with external movie metadata
+      to explore how viewer ratings relate to attributes such as genre and release year.
+      We clean and integrate the datasets, perform exploratory analysis, and implement
+      a simple recommendation system that returns top-rated movies by genre and year.
+      All code, notebooks, and derived outputs are organized to support reproducibility
+      and transparency. Key output data files are stored in a shared Box folder and can
+      be downloaded and placed into the project directory to reproduce our results.
+
+subjects:
+  - subject: "recommender systems"
+  - subject: "movie ratings"
+  - subject: "data integration"
+  - subject: "data cleaning"
+  - subject: "reproducible research"
+
+contributors:
+  - contributorType: "ProjectLeader"
+    name: "IS 477: Data Management, Curation, and Reproducibility"
+
+rightsList:
+  - rights: "MovieLens data licensed under CC BY 4.0; TMDB-based metadata subject to TMDB API Terms of Use. Project code and documentation released under an open-source license (e.g., MIT)."
+
+relatedIdentifiers:
+  - relationType: "IsDerivedFrom"
+    relatedIdentifierType: "URL"
+    relatedIdentifier: "https://grouplens.org/datasets/movielens/"
+  - relationType: "IsDerivedFrom"
+    relatedIdentifierType: "URL"
+    relatedIdentifier: "https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset"
+
+language: "en"
+
+version: "1.0"
+
+dates:
+  - dateType: "Collected"
+    date: "2025-10-01/2025-12-07"
+  - dateType: "Created"
+    date: "2025-12-07"
+
+
