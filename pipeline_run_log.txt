@@ -1,0 +1,2 @@
+Pipeline executed manually through Jupyter notebooks.
+No automated workflow engine used.
