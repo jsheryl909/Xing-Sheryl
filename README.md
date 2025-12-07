@@ -132,6 +132,14 @@ Compare your generated results with the ones shown in the final report.
 The visualizations, tables, and recommended movies should match the results described in the Findings section.
 
 -------------------------------------------------------------------------------------------------------------------------------------
+
+Statement of Contribution 
+
+Xing and I worked together throughout this project, and we both contributed to the final report as a team. In the first two weeks, we sat down together to figure out our project plan, choose the datasets, and set up a clean folder structure so everything would stay organized. For Week 3, I took the lead on cleaning the data  going through the MovieLens and TMDB files, fixing inconsistent formats, extracting years, converting timestamps, and creating the cleaned CSVs that we used later. In Week 4, Xing handled the data integration work, merging everything together and making sure the IDs matched and the final merged dataset looked correct.
+
+In Week 5, we worked side-by-side on the exploratory analysis, making visualizations and talking through what the patterns meant. For Weeks 6 and 7, I worked on the recommendation functions and building out the analysis pipeline, while Xing helped double-check the logic and outputs. We both collaborated equally on writing the final report, organizing the repo, and making sure everything could be reproduced easily. Overall, we split the project in a way that played to both of our strengths, and everything came together smoothly because we kept checking in with each other.
+
+-------------------------------------------------------------------------------------------------------------------------------------
 References
 
 MovieLens Dataset (GroupLens)
