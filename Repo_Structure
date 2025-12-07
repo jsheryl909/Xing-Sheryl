@@ -1,0 +1,74 @@
+Xing-Sheryl/
+│
+├── README.md
+├── requirements.txt
+├── metadata.yml
+├── DataDictionary.md
+├── LICENSE.txt
+│
+├── IS 477 Project/
+│   ├── raw_data/                 ← All raw datasets from MovieLens + Kaggle
+│   │   ├── ratings.csv
+│   │   ├── movies.csv
+│   │   ├── metadata/            ← Kaggle Movie Metadata Dataset
+│   │   │   ├── movies_metadata.csv
+│   │   │   ├── keywords.csv
+│   │   │   ├── links.csv
+│   │   │   ├── links_small.csv
+│   │   │   ├── credits.csv       
+│   │   │   └── ratings_small.csv
+│   │   └── README_raw_data.txt  ← Explains source + licenses + checksums
+│   │
+│   ├── cleaned_data/
+│   │   ├── ratings_clean.csv
+│   │   ├── movies_clean.csv
+│   │   ├── metadata_clean.csv
+│   │   └── cleaned_notes.txt
+│   │
+│   ├── integrated_data/
+│   │   ├── ratings_with_metadata.csv
+│   │   ├── merged_pipeline_output.csv
+│   │   
+│   │
+│   ├── box_data/                ← Folder where TAs place files downloaded from Box
+│   │   ├── credits.csv          
+│   │   ├── merged_pipeline_output.csv
+│   │   ├── top_drama_recommendations.csv
+│   │   ├── top_1995_recommendations.csv
+│   │   └── Reproducibility and transparency.md
+│   │
+│   └── .gitignore              
+│
+├── notebooks/
+│   ├── data_cleaning_week3.ipynb
+│   ├── data_integration_week4.ipynb
+│   ├── exploratory_analysis_week5.ipynb
+│   ├── recommendation_week6.ipynb
+│   ├── recommendation_and_pipeline_week6_7.ipynb
+│   └── week7_pipeline.ipynb
+│
+├── outputs/
+│   ├── tables/
+│   │   ├── avg_ratings_by_genre.csv
+│   │   ├── avg_ratings_by_year.csv
+│   │   ├── top_drama_recommendations.csv
+│   │   ├── top_1995_recommendations.csv
+│   │   └── merged_pipeline_output.csv
+│   │
+│   ├── figures/
+│   │   ├── rating_distribution.png
+│   │   ├── avg_rating_by_genre.png
+│   │   ├── avg_rating_by_year.png
+│   │   ├── top_drama_plot.png
+│   │   └── correlation_heatmap.png
+│   │
+│   └── logs/
+│       └── pipeline_run_log.txt
+│
+├── metadata/
+│   ├── DataDictionary.md
+│   ├── metadata.yml
+│   
+│
+└── box_link.txt                 
+
